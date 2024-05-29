@@ -11,9 +11,25 @@
 }
 
 .navbar li{
-    margin: 10px;
+    margin: 25px; 
 }
+
+.back{
+    background-color:  #010b28;
+    padding: 8px 25px 8px 25px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+.back:hover{
+    background-color: #131b36;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
 
 .navbar a{
     color: aliceblue !important;
+    text-decoration: none;  
+    font-weight: 600
 }

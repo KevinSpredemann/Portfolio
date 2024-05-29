@@ -6,9 +6,9 @@ function Navbar(){
     return (
         <div className={styles.navbar}>
             <ul>
-                <li><Nav.Link href='#Presentation'>Apresentação</Nav.Link></li>
-                <li><Nav.Link href='#Skills'>Habilidade</Nav.Link></li>
-                <li><Nav.Link href='#Projects'>Projetos</Nav.Link></li>
+                <li className={styles.back}><Nav.Link href='#Presentation'>Apresentação</Nav.Link></li>
+                <li className={styles.back}><Nav.Link href='#Skills'>Habilidades</Nav.Link></li>
+                <li className={styles.back}><Nav.Link href='#Projects'>Projetos</Nav.Link></li>
             </ul>
             <ul>
                 <li><a href='https://www.instagram.com/kevinspredemann_/'><FaInstagram size={30}/></a></li>
