@@ -1,6 +1,7 @@
 .projects{
     text-align: justify;
     margin-left: 75px;
+    transition: 0.7s;
 }
 
 .projects h1{

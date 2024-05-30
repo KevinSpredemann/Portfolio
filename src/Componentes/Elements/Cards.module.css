@@ -1,7 +1,7 @@
 .cards{
     display: flex;
     justify-content: center;
-    margin: 25px
+    margin: 25px;
 }
 
 .cards img{
@@ -9,10 +9,12 @@
     border-radius: 40px;
     margin-right: 20px;
     padding: 20px;
+    transition-duration: 1s;
+    
 }
 
 .cards img:hover{
-    transition-duration: 0.5s;
+    transition-duration: 0.7s;
     transform: translateY(-10px);
     cursor: pointer;
 }
@@ -22,7 +24,14 @@
     padding: 20px;
     border-radius: 20px;
     width: 500px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25, 0.25))
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25, 0.25));
+    transition-duration: 1s;
+}
+
+.cards section:hover{
+    transition-duration: 0.7s;
+    transform: translateY(-10px);
+    cursor: pointer;
 }
 
 .cards h3{
